@@ -29,8 +29,3 @@
         ```..-+//+//++:..:--`-+::/:-``..--/:.``.+/:+ssyhs//////+ooooo+++oss
   `..........:-://///+.`..-:-:/-..--.::/::/--`./+:/yhso+//yhs++++o+++//+++o
 -:-.......`..-:...----``..-:/+/:--:.--..-//--:/+o+/yhho-:yysss+++o+++++o+oo
-:-...........-/.``.....``.--/o/-::-:+/:-/oo/+ohhyhhhyyh+osoo+//+o+++oooooos
-:-............/......``.....-+s/----:/:/ssyhdmmmdhysssssooo+/+oo+/+++sooooo
-:-.-.-.........:``..````.`..-/sys/::++oshhyhmmmddhysoysoooo++oo+/++++sssoss
-:----:.........-:...````...-+yyoossssooos://+shhyssyhsoooo+ooo+++oooooyssoy
------:..........-:...-/+oosysyoo+///:/+++/:://ooyyyysoooo++o++++sysssoyyyso
