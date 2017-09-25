@@ -12,24 +12,24 @@ public class VirtualPetShelter {
 		return robsHumaneSociety.values();
 
 	}
-	
+
 	public VirtualPet whatPet(String name) {
 		return robsHumaneSociety.get(name);
 	}
 
 	public void feedAllPets() {
-		for (VirtualPet p : robsHumaneSociety.values()) {
-			p.feedPet();
+		for (VirtualPet pet : robsHumaneSociety.values()) {
+			pet.feedPet();
 		}
 	}
 
 	public void waterAllPets() {
-		for (VirtualPet p : robsHumaneSociety.values()) {
-			p.waterPet();
-		} 
+		for (VirtualPet pet : robsHumaneSociety.values()) {
+			pet.waterPet();
+		}
 	}
 
-	public void addPet(VirtualPet newPet) {  
+	public void addPet(VirtualPet newPet) {
 		robsHumaneSociety.put(newPet.name.toLowerCase(), newPet);
 
 	}
@@ -38,15 +38,16 @@ public class VirtualPetShelter {
 		robsHumaneSociety.remove(removedPet);
 
 	}
-	
-	
-	public void playWithASinglePet(VirtualPet playWithOnePet) {
-		playWithOnePet.playTime();
+
+	public void cleanPets() {
+		for (VirtualPet pet : robsHumaneSociety.values()) {
+			pet.washPet();
+		}
 	}
 
 	public void tickAllPets() {
-		for (VirtualPet p : robsHumaneSociety.values()) {
-			p.tick();
+		for (VirtualPet pet : robsHumaneSociety.values()) {
+			pet.tick();
 		}
 	}
 }
